@@ -1,0 +1,1 @@
+@"C:\\Program Files\\Git\\bin\\bash.exe" --login --init-file "C:\\Program Files\\Git\\etc\\profile"

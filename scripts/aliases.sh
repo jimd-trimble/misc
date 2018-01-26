@@ -10,6 +10,7 @@ alias cf='dev && cd connected-farm'
 alias ad='dev && cd agri-data'
 alias rp='dev && cd reseller-portal'
 alias ms='cd C:\\Users\\jdillon\\misc'
+alias runcf='C:\\Users\\jdillon\\misc\\scripts\\runcf.bat'
 
 case "$TERM" in
 xterm*)
