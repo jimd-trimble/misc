@@ -1,0 +1,1 @@
+@dev & cd "c:\program files (x86)\vim\vim80" & vimtutor

@@ -6,4 +6,6 @@ Open a cmd window with "Run as administrator", navigate to the profile.d directo
 c:\Program Files\Git\etc\profile.d>mklink aliases.sh C:\Users\jdillon\misc\scripts\aliases.sh
 symbolic link created for aliases.sh <<===>> C:\Users\jdillon\misc\scripts\aliases.sh
 
+Do the same for the _vimrc file.
+
 For the remaining .bat scripts, just add the scripts directory to your PATH.
