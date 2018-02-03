@@ -1,0 +1,50 @@
+RENAME REMOTE BRANCH AND KEEP HISTORY:
+	from https://stackoverflow.com/questions/1526794/rename-master-branch-for-both-local-and-remote-git-repositories
+	This is something actually easy to do; but don't abuse it. The whole idea hinges on merge commits; as they allow fast-forward, and link histories of a branch with another.
+
+	renaming the branch:
+	# rename the branch "feat/TABS-1234" to "feat/TABS-1234-old"
+	# this works even if you are on branch "feat/TABS-1234"
+	git branch -m feat/TABS-1234 feat/TABS-1234-old
+
+	creating the new "feat/TABS-1234" branch:
+	# create feat/TABS-1234 from new starting point
+	git branch feat/TABS-1234 <sha of starting commit>
+
+	creating a merge commit to have a parent-child history:
+	# now we've got to fix the new branch...
+	git checkout feat/TABS-1234
+
+	# ... by doing a merge commit that obsoletes
+	# "master-old" hence the "ours" strategy.
+	git merge -s ours feat/TABS-1234-old
+	Commit message:
+		renamed branch "feat/TABS-1234" to "feat/TABS-1234-old" and use commit ba2f9cc as new "feat/TABS-1234"
+		-- this is done by doing a merge commit with "ours" strategy which obsoletes
+		   the branch.
+
+	git push origin feat/TABS-1234
+
+SQUASH COMMITS AND MAINTAIN HISTORY
+	from https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+	# This worked great:
+	git checkout -b <name of new squashed branch>
+	# Reset the current branch to the commit just before the last 12:
+	git reset --hard HEAD~12
+
+	# HEAD@{1} is where the branch was just before the previous command.
+	# This command sets the state of the index to be as it would just
+	# after a merge from that commit:
+	git merge --squash HEAD@{1}
+
+	# Commit those squashed changes.  The commit message will be helpfully
+	# prepopulated with the commit messages of all the squashed commits:
+	git commit
+
+	# Push branch to origin
+	git push -u origin <branch name>
+
+	# Another approach:
+	# to format with squashed commit messages
+	git reset --soft HEAD~3 && 
+	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
