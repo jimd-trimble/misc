@@ -1,4 +1,40 @@
-RENAME REMOTE BRANCH AND KEEP HISTORY:
+Strategy #1: SQUASH COMMITS AND MAINTAIN HISTORY (best strategy)
+	# commands:
+	git checkout -b <name of new squashed branch>
+	git reset --hard HEAD~12
+	git merge --squash HEAD@{1}
+	git commit
+	git push -u origin <branch name>
+
+	# EXPLANATION
+	from https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+	# This worked well:
+	git checkout -b <name of new squashed branch>
+	# Reset the current branch to the commit just before the last 12:
+	git reset --hard HEAD~12
+
+	# HEAD@{1} is where the branch was just before the previous command.
+	# This command sets the state of the index to be as it would just
+	# after a merge from that commit:
+	git merge --squash HEAD@{1}
+
+	# Commit those squashed changes.  The commit message will be helpfully
+	# prepopulated with the commit messages of all the squashed commits:
+	git commit
+
+	# Push branch to origin
+	git push -u origin <branch name>
+
+
+Srategy #2: RESET & FORMAT COMMIT (more fluent but the commit message isn't as good):
+	from https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+	# to format with squashed commit messages
+	git reset --soft HEAD~3 && 
+	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+
+
+Strategy #3: RENAME REMOTE BRANCH AND KEEP HISTORY (no squash potential).
+creates a new, renamed branch from a SHA starting point and then uses "merge -s ours" to bring in further commits from the parent as a merge commit while preserving the history from the old branch.
 	from https://stackoverflow.com/questions/1526794/rename-master-branch-for-both-local-and-remote-git-repositories
 	This is something actually easy to do; but don't abuse it. The whole idea hinges on merge commits; as they allow fast-forward, and link histories of a branch with another.
 
@@ -16,7 +52,7 @@ RENAME REMOTE BRANCH AND KEEP HISTORY:
 	git checkout feat/TABS-1234
 
 	# ... by doing a merge commit that obsoletes
-	# "master-old" hence the "ours" strategy.
+	# "feat/TABS-1234-old" hence the "ours" strategy.
 	git merge -s ours feat/TABS-1234-old
 	Commit message:
 		renamed branch "feat/TABS-1234" to "feat/TABS-1234-old" and use commit ba2f9cc as new "feat/TABS-1234"
@@ -24,27 +60,40 @@ RENAME REMOTE BRANCH AND KEEP HISTORY:
 		   the branch.
 
 	git push origin feat/TABS-1234
+	
+	# commands
+	git branch -m feat/TABS-1234 feat/TABS-1234-old
+	git checkout -b feat/TABS-1234 <sha of starting commit>
+	git merge -s ours feat/TABS-1234-old
+	git push origin feat/TABS-1234
 
-SQUASH COMMITS AND MAINTAIN HISTORY
-	from https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
-	# This worked great:
-	git checkout -b <name of new squashed branch>
-	# Reset the current branch to the commit just before the last 12:
-	git reset --hard HEAD~12
+Stragegy #4: Like 3 but with rebase -i DOESN'T WORK.
+	??? what happens ???
+	NOTHING! 
+	There is nothing to rebase. Isn't that weird?
 
-	# HEAD@{1} is where the branch was just before the previous command.
-	# This command sets the state of the index to be as it would just
-	# after a merge from that commit:
-	git merge --squash HEAD@{1}
+	# commands
+	git branch -m feat/TABS-1234 feat/TABS-1234-old
+	git checkout -b feat/TABS-1234 <sha of starting commit>
+	git rebase -i feat/TABS-1234-old
+	=> NOOP!
+	=> code is unreachable: git push origin feat/TABS-1234 (force push?)
 
-	# Commit those squashed changes.  The commit message will be helpfully
-	# prepopulated with the commit messages of all the squashed commits:
-	git commit
+	
+General	
+REVERT TO A SHA
+	 Reset the index and working tree to the desired tree
+	# Ensure you have no uncommitted changes that you want to keep
+	git reset --hard 56e05fced
 
-	# Push branch to origin
-	git push -u origin <branch name>
+	# Move the branch pointer back to the previous HEAD
+	git reset --soft HEAD@{1}
 
-	# Another approach:
-	# to format with squashed commit messages
-	git reset --soft HEAD~3 && 
-	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+	git commit -m "Revert to 56e05fced"
+
+UNDO A HARD RESET
+	don't do ANYTHING after the reset, just look at the logs.
+	git reset HEAD@{1}
+	
+Notes:
+fleet-filters sha:	f2632b9c1
