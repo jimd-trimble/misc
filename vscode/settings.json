@@ -11,4 +11,31 @@
 		"--init-file",
 		"C:\\Program Files\\Git\\etc\\profile"
 	],
+	// "keyboard.dispatch": "keyCode",
+	"vim.statusBarColorControl": true,
+	"vim.statusBarColors" : {
+		"normal": "#005f5f",
+		"insert": "#5f0000",
+		"visual": "#5f00af",
+		"visualline": "#005f87",
+		"visualblock": "#86592d",
+		"replace": "#000000"
+    },
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["r","r"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.otherModesKeyBindings": [
+		{
+			"before": ["r", "r"],
+			"after": ["<Esc>"]
+		}
+	],
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#005f5f",
+		"statusBar.noFolderBackground": "#005f5f",
+		"statusBar.debuggingBackground": "#005f5f"
+	},
 }
