@@ -11,6 +11,8 @@ alias ad='dev && cd agri-data'
 alias rp='dev && cd reseller-portal'
 alias ms='cd C:\\Users\\jdillon\\misc'
 alias runcf='C:\\Users\\jdillon\\misc\\scripts\\runcf.bat'
+alias b='npm run build'
+alias w='npm run watch'
 
 case "$TERM" in
 xterm*)

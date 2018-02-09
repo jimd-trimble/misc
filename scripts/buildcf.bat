@@ -1,0 +1,1 @@
+@cf & MSBuild.exe /p:Configuration=Rogue /p:VisualStudioVersion=14.0 "/p:Platform=Any CPU" /p:DeployOnBuild=true C:\dev\TrimbleAg\connected-farm\ConnectedFarm.sln
