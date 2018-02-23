@@ -18,6 +18,10 @@ builddc - Builds DataCenter.
 ***** Are you using Visual Studio to run the backend? STOP.
 runcf - will run ConnectedFarm in an IIS Express instance.
 rundc - will run DataCenter in an IIS Express instance.
+openChromeWithDevTools.au3 - this is an AutoIT script that opens Chrome to https://localhost:44307 and pops a dev tools window.
+	- Requires AutoIT https://www.autoitscript.com/site/autoit/downloads/
+	- Bitfender blocks SendKeys as "malicious command line".
+	- If you don't want this you can strip out the call to openChromeWithDevTools.au3 in runcf.
 
 ***** Using Gitbash?
 aliases.sh 
