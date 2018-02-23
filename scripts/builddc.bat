@@ -1,0 +1,1 @@
+@dc & MSBuild.exe /p:Configuration=Rogue /p:VisualStudioVersion=14.0 "/p:Platform=Any CPU" /p:DeployOnBuild=true C:\dev\TrimbleAg\datacenter\DataCenter\DataCenter.sln
