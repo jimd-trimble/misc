@@ -1,9 +1,22 @@
-Strategy #1: SQUASH COMMITS AND MAINTAIN HISTORY (best strategy)
+General branch/rebase/merge/push workflow:
+- Treat your public feature branch like 'develop', don't rebase it so you can keep history clean. Merge rebased local commits into the public feature branch.
+- Create a public feature branch (from develop) in BitBucket or create it locally and push to origin.
+- Create a local feature branch from THAT public branch with 'working' after the 'TABS-XXXX-', feat/TABS-XXXX-working-<whatever>.
+- Push the working branch to origin if you need to back up remotely
+- Rebase the working branch against Develop
+- Merge the working branch into the public feature branch
+- Push the public feature branch
+- Issue pull request.
+
+Helpful workflows:
+SQUASH COMMITS AND MAINTAIN HISTORY (best strategy)
 	# commands:
 	git checkout -b <name of new squashed branch>
-	git reset --hard HEAD~12
-	git merge --squash HEAD@{1}
-	git commit
+	git reset --hard HEAD~<number of commits to rewind, if the 1st commit that you want to squash was 3 commits ago then rewind to the HEAD~4 to put you just before that 1st commit to squash.> 
+		--- OR -- 
+		git reset --hard <SHA>
+	git merge --squash HEAD@{1} <merge everything between here and the latest commit using squash>
+	git commit <you'll have all the messages from squashed commits formatted into this commit message.>
 	git push -u origin <branch name>
 
 	# EXPLANATION
@@ -25,15 +38,16 @@ Strategy #1: SQUASH COMMITS AND MAINTAIN HISTORY (best strategy)
 	# Push branch to origin
 	git push -u origin <branch name>
 
+TO UNDO A 'merge --squash':
+1 - Run git reflog (or git log) and find the last commit before you merged, or the first commit in the squashed commit message. You can use the head number or the SHA.
 
-Srategy #2: RESET & FORMAT COMMIT (more fluent but the commit message isn't as good):
-	from https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
-	# to format with squashed commit messages
-	git reset --soft HEAD~3 && 
-	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+2 - git reset HEAD@{<headNumber>} or git reset <SHA>.
+
+3 - git log and make sure you're good.
+	- to get back to the merge commit: git reset HEAD@{1}
 
 
-Strategy #3: RENAME REMOTE BRANCH AND KEEP HISTORY (no squash potential).
+RENAME REMOTE BRANCH AND KEEP HISTORY (no squash potential but useful for renaming a remote).
 creates a new, renamed branch from a SHA starting point and then uses "merge -s ours" to bring in further commits from the parent as a merge commit while preserving the history from the old branch.
 	from https://stackoverflow.com/questions/1526794/rename-master-branch-for-both-local-and-remote-git-repositories
 	This is something actually easy to do; but don't abuse it. The whole idea hinges on merge commits; as they allow fast-forward, and link histories of a branch with another.
@@ -66,21 +80,7 @@ creates a new, renamed branch from a SHA starting point and then uses "merge -s 
 	git checkout -b feat/TABS-1234 <sha of starting commit>
 	git merge -s ours feat/TABS-1234-old
 	git push origin feat/TABS-1234
-
-Stragegy #4: Like 3 but with rebase -i DOESN'T WORK.
-	??? what happens ???
-	NOTHING! 
-	There is nothing to rebase. Isn't that weird?
-
-	# commands
-	git branch -m feat/TABS-1234 feat/TABS-1234-old
-	git checkout -b feat/TABS-1234 <sha of starting commit>
-	git rebase -i feat/TABS-1234-old
-	=> NOOP!
-	=> code is unreachable: git push origin feat/TABS-1234 (force push?)
-
 	
-General	
 REVERT TO A SHA
 	 Reset the index and working tree to the desired tree
 	# Ensure you have no uncommitted changes that you want to keep
@@ -94,6 +94,3 @@ REVERT TO A SHA
 UNDO A HARD RESET
 	don't do ANYTHING after the reset, just look at the logs.
 	git reset HEAD@{1}
-	
-Notes:
-fleet-filters sha:	f2632b9c1
