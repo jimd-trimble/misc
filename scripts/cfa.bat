@@ -1,0 +1,1 @@
+@dev & cd connected-farm\ConnectedFarm\app
