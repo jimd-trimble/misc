@@ -94,3 +94,6 @@ REVERT TO A SHA
 UNDO A HARD RESET
 	don't do ANYTHING after the reset, just look at the logs.
 	git reset HEAD@{1}
+
+GET CURRENT SHA
+$ git log --pretty=format:'%h' -n 1

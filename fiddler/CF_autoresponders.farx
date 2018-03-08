@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2018-03-08T11:54:56.2443545-07:00" FiddlerVersion="5.0.20173.50948">
+  <State Enabled="true" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="EXACT:https://rogue-clientsvcs.trimbleag.team/notifications/v1/MessageOfTheDay" Action="204_NoContent.dat" Latency="102" Enabled="true" />
+    <ResponseRule Match="EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/notifications/v1/MessageOfTheDay" Action="204_NoContent.dat" Latency="261" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://rogue-clientsvcs.trimbleag.team/orgadministration/v1/importjdlink?shouldNotify=false" Action="204_NoContent.dat" Latency="65" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://rogue-clientsvcs.trimbleag.team/orgadministration/v1/importvariodoc?shouldNotify=false" Action="204_NoContent.dat" Latency="65" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/importvariodoc?shouldNotify=false" Action="204_NoContent.dat" Latency="602" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/importjdlink?shouldNotify=false" Action="204_NoContent.dat" Latency="657" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/importjdlink?shouldNotify=false" Action="204_NoContent.dat" Latency="657" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/importjdlink?shouldNotify=false" Action="204_NoContent.dat" Latency="657" Enabled="true" />
+    <ResponseRule Match="METHOD:POST EXACT:https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/importvariodoc?shouldNotify=false" Action="204_NoContent.dat" Latency="602" Enabled="true" />
+    <ResponseRule Match="EXACT:https://localhost:44307/dist/vendor/polygon-editor/polygon-editor.min.js.map" Action="204_NoContent.dat" Latency="5" Enabled="true" />
+    <ResponseRule Match="https://localhost:44307/agridata5/imgs/weather" Action="204_NoContent.dat" Latency="369" Enabled="true" />
+    <ResponseRule Match="https://localhost:44307/proxy/clientservices/LegacyFeatures/orgadministration/v1/import" Action="204_NoContent.dat" Latency="621" Enabled="true" />
+    <ResponseRule Match="https://rogue-clientsvcs.trimbleag.team/orgadministration/v1/import" Action="204_NoContent.dat" Latency="58" Enabled="true" />
+    <ResponseRule Match="https://localhost:44307/proxy/clientservices/LegacyFeatures/notifications/v1/MessageOfTheDay" Action="204_NoContent.dat" Latency="211" Enabled="true" />
+    <ResponseRule Match="https://rogue-clientsvcs.trimbleag.team/notifications/v1/MessageOfTheDay" Action="204_NoContent.dat" Latency="64" Enabled="true" />
+    <ResponseRule Match="EXACT:https://localhost:44307/api/userProfile" Action="*200-SESSION_1101" Latency="246" Enabled="false" Headers="SFRUUC8xLjEgMjAwIE9LDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04DQpFeHBpcmVzOiAtMQ0KU2VydmVyOiBNaWNyb3NvZnQtSUlTLzEwLjANClgtQXNwTmV0LVZlcnNpb246IDQuMC4zMDMxOQ0KWC1Tb3VyY2VGaWxlczogPT9VVEYtOD9CP1F6cGNaR1YyWEZSeWFXMWliR1ZCWjF4amIyNXVaV04wWldRdFptRnliVnhEYjI1dVpXTjBaV1JHWVhKdFhHRndhVngxYzJWeVVISnZabWxzWlE9PT89DQpYLVBvd2VyZWQtQnk6IEFTUC5ORVQNCkRhdGU6IFR1ZSwgMDYgTWFyIDIwMTggMTg6Mjc6NTEgR01UDQpDb250ZW50LUxlbmd0aDogNDU2DQoNCg==" Body="eyJVc2VySUQiOjYyMzM3LCJVc2VyTmFtZSI6IkppbV9EaWxsb25AVHJpbWJsZS5jb20iLCJPcmdJRCI6MTc0ODczLCJPcmdOYW1lIjoiSmltIERpbGxvbiIsIk9yZ1R5cGUiOiJHcm93ZXIiLCJJY29uVXJsIjoiaHR0cHM6Ly93d3cuZ3JhdmF0YXIuY29tL2F2YXRhci8xMWIwYWU1YmFmODUxN2JmZDM2NzI0ZDNjNDI0Y2QwZT9zaXplPTI2JmQ9aHR0cHMlM0ElMkYlMkZ0c3Qtd3d3LnRyaW1ibGVhZy5jb20lMkZkaXN0JTJGYXNzZXRzJTJGaW1hZ2VzJTJGaWNvbnMlMkZpY29uX2F2YXRhci5wbmciLCJJc1Jlc2VsbGVyIjp0cnVlLCJDYW5PbmJvYXJkIjpmYWxzZSwiQ2FuU3RhcnRUcmlhbCI6ZmFsc2UsIlRyaWFsRGF5c1JlbWFpbmluZyI6MCwiTGljZW5zZURheXNSZW1haW5pbmciOm51bGwsIk15T3JnSUQiOjE3NDg3MywiTXlPcmdOYW1lIjoiSmltIERpbGxvbiIsIk15T3JnVHlwZSI6Ikdyb3dlciJ9" />
+  </State>
+</AutoResponder>
