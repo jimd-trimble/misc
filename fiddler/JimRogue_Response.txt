@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXGFwaVx1c2VyUHJvZmlsZQ==?=
+X-Powered-By: ASP.NET
+Date: Fri, 16 Mar 2018 15:18:29 GMT
+Content-Length: 456
+
+{"UserID":62337,"UserName":"Jim_Dillon@Trimble.com","OrgID":174873,"OrgName":"Jim Dillon","OrgType":"Grower","IconUrl":"https://www.gravatar.com/avatar/11b0ae5baf8517bfd36724d3c424cd0e?size=26&d=https%3A%2F%2Ftst-www.trimbleag.com%2Fdist%2Fassets%2Fimages%2Ficons%2Ficon_avatar.png","IsReseller":true,"CanOnboard":false,"CanStartTrial":false,"TrialDaysRemaining":0,"LicenseDaysRemaining":null,"MyOrgID":174873,"MyOrgName":"Jim Dillon","MyOrgType":"Grower"}

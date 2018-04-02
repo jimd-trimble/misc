@@ -97,3 +97,11 @@ UNDO A HARD RESET
 
 GET CURRENT SHA
 $ git log --pretty=format:'%h' -n 1
+
+SET BRANCH TO MATCH REMOTE
+git fetch origin
+git reset --hard origin/master
+If you want to save your current branch's state before doing this (just in case), you can do:
+
+git commit -a -m "Saving my work, just in case"
+git branch my-saved-work

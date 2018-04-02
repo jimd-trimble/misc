@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXHByb3h5XGNsaWVudHNlcnZpY2VzXExlZ2FjeUZlYXR1cmVzXENvbmZpZ3VyYXRpb25cVXNlckNvbmZpZ3VyYXRpb25cU2hvd2VkTmV3Tm90aWZpY2F0aW9uRmVhdHVyZVBvcFVw?=
+X-Powered-By: ASP.NET
+Date: Fri, 16 Mar 2018 15:09:54 GMT
+Content-Length: 70
+
+{
+  "key": "ShowedNewNotificationFeaturePopUp",
+  "value": "true"
+}
