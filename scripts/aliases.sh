@@ -15,6 +15,7 @@ alias runcf='runcf.bat'
 alias debcf='debcf.bat'
 alias buildcf='buildcf-n.bat'
 alias builddc='builddc-n.bat'
+alias vpn="vpn.bat"
 alias b='npm run build'
 alias w='npm run watch'
 

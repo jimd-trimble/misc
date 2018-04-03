@@ -8,6 +8,13 @@ IF "%1" == "p" GOTO No2
 IF "%1" == "d" (GOTO No3) ELSE (GOTO help1)
 GOTO End1
 
+REM How to prompt for user input
+REM SET /p inpt="Enter t, p, or d: "
+REM echo %inpt%
+REM IF %inpt%==t GOTO No1
+REM IF %inpt%==p GOTO No2
+REM IF %inpt%==d (GOTO No3) ELSE (GOTO help1)
+
 :No1
 echo connecting to TEST
 GOTO Run1
@@ -25,7 +32,7 @@ set viscExit=disconnected
 GOTO Run1
 
 :Run1
-CALL %viscPath% %viscCmd% %viscPrms%
+START /b "Viscosity" %viscPath% %viscCmd% %viscPrms%
 GOTO End1
 
 :help1
