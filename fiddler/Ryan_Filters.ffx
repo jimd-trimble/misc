@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SimpleFilter LastSave="2018-04-19T13:39:59.9080309-06:00" ExtensionVersion="2.6.2.0">
+<SimpleFilter LastSave="2018-04-30T13:43:50.8121388-06:00" ExtensionVersion="2.6.2.0">
   <Settings FiltersEnabled="true">
-    <slHosts>clientsvcs.myconnectedfarm.com; trimbleag.team; usagi-pp.trimbleag.team; localhost:44307; localhost:44304; usagi-advisorsvcs.trimbleag.team:443;</slHosts>
+    <slHosts>localhost; api.hubapi.com; agco-fuse-trackers-test.herokuapp.com; agco-fuse-trackers.herokuapp.com; aaat.agcocorp.com; aaa.agcocorp.com; cf-filetransfer-devtst.s3.amazonaws.com; *.trimbleag.com; *.connectedfarm.com; *.trimbleag.team; *.trimble.com; *.googleapis.com; *.myconnectedfarm.com; *.trimblemaps.com; *.trimblepaas.com; *.agri-data.net; *.cloudfront.net; *.agritrend.com;</slHosts>
     <iFilterActions>2</iFilterActions>
     <iResponseType>0</iResponseType>
     <bHideSvcHost>false</bHideSvcHost>
@@ -12,7 +12,7 @@
     <bRequestURLFilter>false</bRequestURLFilter>
     <sRequestURLFilter>/LegacyFeatures/VehicleManagement</sRequestURLFilter>
     <bHideIfURLContains>true</bHideIfURLContains>
-    <sHideIfURLContains>google.com, aplus.net, gstatic, doubleclicke, png, image/jpg, html, css</sHideIfURLContains>
+    <sHideIfURLContains>vshub splunk rabbit ejira</sHideIfURLContains>
     <bHideRedirects>false</bHideRedirects>
     <bHideSuccess>false</bHideSuccess>
     <bHideNon2xx>false</bHideNon2xx>

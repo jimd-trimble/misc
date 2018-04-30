@@ -1,0 +1,108 @@
+# travis-ci integration for kiibohd/configurator
+
+sudo:
+  - false
+
+
+language:
+  - node_js
+
+
+addons:
+  apt:
+    packages:
+      - tree
+      - build-essential
+      - libudev-dev
+
+
+# Versions of node.js to test
+node_js:
+  - "8"
+
+
+# Specific Environment Variables
+matrix:
+  include:
+  - os: linux
+    env:
+      - PACKAGE_OS=linux64
+      - PACKAGE_NAME=kiibohd-configurator
+      - PACKAGE_VERSION=$TRAVIS_TAG
+      - PACKAGE_FULLNAME=$PACKAGE_NAME-$PACKAGE_VERSION
+      - PLATFORM=linux
+      - ARCH=x64
+      - GH_TOKEN=$GITHUB_OAUTH_TOKEN
+  - os: osx
+    env:
+      - PACKAGE_OS=macOS
+      - PACKAGE_NAME=kiibohd-configurator
+      - PACKAGE_VERSION=$TRAVIS_TAG
+      - PACKAGE_FULLNAME=$PACKAGE_NAME-$PACKAGE_VERSION
+      - PLATFORM=darwin
+      - ARCH=x64
+      - GH_TOKEN=$GITHUB_OAUTH_TOKEN
+
+cache:
+  directories:
+  - node_modules
+  - $HOME/.m2
+  - $HOME/.boot/cache/bin
+  - $HOME/.boot/cache/lib
+  - $HOME/bin
+
+# Package Setup
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install tree libusb; fi
+
+# System setup
+install:
+  # Setup local bin
+  - mkdir -p ~/bin
+  - export PATH=~/bin:$PATH
+
+  # Info about OS
+  - uname -a
+
+#  # Directory tree to validate configurator.git
+#  - tree
+
+  # Get version of node.js
+  - npm --version
+
+  # Get boot-clj and show version
+  - wget -O ~/bin/boot https://github.com/boot-clj/boot-bin/releases/download/latest/boot.sh
+  - chmod 755 ~/bin/boot
+  - boot -V
+
+  # Install electron and dependencies
+  - npm install -g node-pre-gyp
+  - npm install
+
+# Build and packaging
+script:
+  # Build clojure target
+  - npm run build:prod
+
+  # Build electron binary
+  - npm run dist -- --publish onTagOrDraft
+
+## Deploy release
+#deploy:
+#  provider: releases
+#  api_key: $GITHUB_OAUTH_TOKEN
+#  skip_cleanup: true
+#  draft: true # XXX Must "publish" on github
+#  prerelease: true # XXX Set this to false to enable a stable release
+#  file_glob: true
+#  file: output/$PACKAGE_NAME-*
+#  on:
+#    tags: true
+#    repo: kiibohd/configurator
+
+
+## Post test script commands
+#after_script:
+#  - tree output
+

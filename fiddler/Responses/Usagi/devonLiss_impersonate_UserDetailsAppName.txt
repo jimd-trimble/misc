@@ -1,0 +1,3970 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXHByb3h5XGNsaWVudHNlcnZpY2VzXExlZ2FjeUZlYXR1cmVzXE9yZ0FkbWluaXN0cmF0aW9uXHYxXFVzZXJEZXRhaWxz?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 16:06:04 GMT
+Content-Length: 111769
+
+{
+  "newUser": false,
+  "userId": 1039,
+  "contactId": "CONTACT00388791",
+  "uuid": "d5eebad1-d95a-4c20-a836-9943c7dd00df",
+  "firstName": "Devon",
+  "lastName": "Liss",
+  "email": "devon_liss@trimble.com",
+  "country": "US",
+  "timezoneId": "Mountain Standard Time",
+  "legalTermsAcceptedUtc": "2016-09-08T16:54:57.504757Z",
+  "isMetric": false,
+  "region": 1,
+  "canStartTrial": false,
+  "trialDaysRemaining": 0,
+  "licenseDaysRemaining": null,
+  "area": 0,
+  "distance": 0,
+  "speed": 0,
+  "weight": 0,
+  "volume": 0,
+  "temperature": 0,
+  "pressure": 0,
+  "depth": 0,
+  "organizations": [
+    {
+      "id": 1042,
+      "name": "Devon Liss Company",
+      "isPrimary": true,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "DealerPortal.User",
+          "accessLevel": 15,
+          "appName": "DealerPortal"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 1064,
+      "name": "Earthling Interactive",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 2
+    },
+    {
+      "id": 2137,
+      "name": "Advisor Business (Org)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        }
+      ],
+      "users": 2
+    },
+    {
+      "id": 2123,
+      "name": "CSU",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 5
+    },
+    {
+      "id": 2437,
+      "name": "German Org",
+      "isPrimary": false,
+      "brandName": 1,
+      "organizationType": 0,
+      "timezoneId": "GTB Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2596,
+      "name": "Brazil Org",
+      "isPrimary": false,
+      "brandName": 1,
+      "organizationType": 0,
+      "timezoneId": "E. South America Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2597,
+      "name": "Mexico Org",
+      "isPrimary": false,
+      "brandName": 1,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2601,
+      "name": "USA Org",
+      "isPrimary": false,
+      "brandName": 1,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2608,
+      "name": "GTO",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2612,
+      "name": "UK Org",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2613,
+      "name": "New Farms",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2614,
+      "name": "17.1.4",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2615,
+      "name": "Southern Ops",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2616,
+      "name": "17.1.4.4",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2617,
+      "name": "Company Ops",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2618,
+      "name": "TG Farming",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2619,
+      "name": "Jamie's Farm",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2621,
+      "name": "SIS Testing Org",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 2
+    },
+    {
+      "id": 2622,
+      "name": "MT Farm 1",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2623,
+      "name": "MT Farm 2",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Hawaiian Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2624,
+      "name": "MT Farm 3",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2625,
+      "name": "MT Farm 4",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2633,
+      "name": "T&C Farming",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2634,
+      "name": "Grower 1",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2635,
+      "name": "New Big Farms",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2646,
+      "name": "Grower today",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2677,
+      "name": "Soil Sampling Org",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central America Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.SoilSampler",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2682,
+      "name": "Ben Test Org",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2752,
+      "name": "IT 0",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2753,
+      "name": "IT 2",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2784,
+      "name": "IT 3",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2790,
+      "name": "MT Farm 5",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 2996,
+      "name": "MT Farm 6",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Eastern Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 2
+    },
+    {
+      "id": 2610,
+      "name": "Agri-Trend Agrology (Canada) Ltd.",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 2
+    },
+    {
+      "id": 3007,
+      "name": "Advisor Business (Company)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        }
+      ],
+      "users": 4
+    },
+    {
+      "id": 3051,
+      "name": "Pure Pixel Test Sites",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3053,
+      "name": "Advisor Business 2 (Org)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Mountain Standard Time (Mexico)",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3056,
+      "name": "Office Farm 2",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3057,
+      "name": "TABS-1523",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Central Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3059,
+      "name": "PurePixel Fields",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3032,
+      "name": "MT Farm 7",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3062,
+      "name": "Advisor Business (Company) -retired",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3025,
+      "name": "New Farm 1",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3064,
+      "name": "Earthling Interactive",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3068,
+      "name": "New Farm 5",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3077,
+      "name": "Farm 4161",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "Pacific Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3082,
+      "name": "Advisor Business 2 (Company)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3083,
+      "name": "Advisor Business 3 (Company)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3084,
+      "name": "Advisor Business 4 (Company)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3085,
+      "name": "Grower 1 (AB2)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3091,
+      "name": "Not PWB Partner Grower",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "US Mountain Standard Time",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3087,
+      "name": "Grower 1 (AB)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    },
+    {
+      "id": 3092,
+      "name": "Company (Converted Org)",
+      "isPrimary": false,
+      "brandName": 3,
+      "organizationType": 1,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "Advisor.User",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "Advisor.Advisor",
+          "accessLevel": 15,
+          "appName": "Advisor"
+        },
+        {
+          "feature": "ConnectedFarm.ConnectedAccounts",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        }
+      ],
+      "users": 2
+    }
+  ]
+}

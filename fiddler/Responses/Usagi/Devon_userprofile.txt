@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXGFwaVx1c2VyUHJvZmlsZQ==?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 16:11:24 GMT
+Content-Length: 473
+
+{"UserID":1039,"UserName":"devon_liss@trimble.com","OrgID":3051,"OrgName":"Pure Pixel Test Sites","OrgType":"Grower","IconUrl":"https://www.gravatar.com/avatar/0be6905ef0c9dcd2b257b2a028174bb5?size=26&d=https%3A%2F%2Ftst-www.trimbleag.com%2Fdist%2Fassets%2Fimages%2Ficons%2Ficon_avatar.png","IsReseller":true,"CanOnboard":false,"CanStartTrial":false,"TrialDaysRemaining":0,"LicenseDaysRemaining":null,"MyOrgID":3051,"MyOrgName":"Pure Pixel Test Sites","MyOrgType":"Grower"}

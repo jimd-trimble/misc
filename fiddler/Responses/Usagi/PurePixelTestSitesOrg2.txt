@@ -1,0 +1,44 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXHByb3h5XGNsaWVudHNlcnZpY2VzXExlZ2FjeUZlYXR1cmVzXE9yZ0FkbWluaXN0cmF0aW9uXHYxXE9yZ2FuaXphdGlvblwzMDUx?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 22:20:29 GMT
+
+308
+{
+  "countOfUsers": 1,
+  "iD": 3051,
+  "isReseller": false,
+  "name": "Pure Pixel Test Sites",
+  "brandName": 3,
+  "timezoneID": "Central Standard Time",
+  "isMetric": false,
+  "currencyCode": "USD",
+  "disableImportAssetCreation": false,
+  "disableImportOperatorCreation": false,
+  "ownerLoginId": 1039,
+  "ownerEmail": null,
+  "workPhone": null,
+  "cellPhone": null,
+  "homePhone": null,
+  "email": "devon_liss@trimble.com",
+  "address1": "10368 Westmoor Dr",
+  "address2": null,
+  "city": "Westminster",
+  "zipCode": "80021",
+  "state": "Colorado",
+  "country": "US",
+  "contactPerson": "Devon Liss",
+  "webUrl": null,
+  "maxDesktopInstallations": 5,
+  "organizationType": 0,
+  "asPartner": false,
+  "partnerRoles": null,
+  "cropYears": null
+}
+0
+

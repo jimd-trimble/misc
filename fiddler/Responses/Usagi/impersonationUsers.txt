@@ -1,0 +1,135 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXHByb3h5XGNsaWVudHNlcnZpY2VzXExlZ2FjeUZlYXR1cmVzXE9yZ0FkbWluaXN0cmF0aW9uXHYxXFVzZXJzXEZpbmQ=?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 15:48:59 GMT
+Content-Length: 3579
+
+{
+  "users": [
+    {
+      "iD": 1024,
+      "username": "3unt2g+2fjrhimi83vw4@sharklasers.com",
+      "firstName": "Johnny",
+      "lastName": "Shark",
+      "isMetric": false,
+      "timezoneID": "Eastern Standard Time",
+      "legalTermsAcceptedUTC": "2016-05-21T02:58:24.6626038Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00463110"
+    },
+    {
+      "iD": 1050,
+      "username": "adesh_banvait@trimble.com",
+      "firstName": "Adesh",
+      "lastName": "Banvait",
+      "isMetric": true,
+      "timezoneID": "Mountain Standard Time",
+      "legalTermsAcceptedUTC": "2016-09-27T00:40:11.6265729Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00463821"
+    },
+    {
+      "iD": 1053,
+      "username": "admin@agri-data.net",
+      "firstName": "Admin",
+      "lastName": "User",
+      "isMetric": true,
+      "timezoneID": "UTC",
+      "legalTermsAcceptedUTC": null,
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": null
+    },
+    {
+      "iD": 1257,
+      "username": "alex_blum@trimble.com",
+      "firstName": "Alex",
+      "lastName": "Blum",
+      "isMetric": true,
+      "timezoneID": "UTC",
+      "legalTermsAcceptedUTC": "2017-03-29T18:47:00.0429301Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00465153"
+    },
+    {
+      "iD": 1001,
+      "username": "anthony_woody@trimble.com",
+      "firstName": "Anthony",
+      "lastName": "Woody",
+      "isMetric": false,
+      "timezoneID": "Mountain Standard Time",
+      "legalTermsAcceptedUTC": "2016-01-12T16:15:51.2028304Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00328038"
+    },
+    {
+      "iD": 1260,
+      "username": "autotest@mailinator.com",
+      "firstName": "Automation",
+      "lastName": "Testing",
+      "isMetric": false,
+      "timezoneID": "Eastern Standard Time",
+      "legalTermsAcceptedUTC": "2017-05-11T20:06:12.6245804Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00462875"
+    },
+    {
+      "iD": 1063,
+      "username": "baranidharan_mohandoss@trimble.com",
+      "firstName": "Baranidharan",
+      "lastName": "Mohandoss",
+      "isMetric": true,
+      "timezoneID": "UTC",
+      "legalTermsAcceptedUTC": "2016-10-12T22:56:49.149Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00313852"
+    },
+    {
+      "iD": 1042,
+      "username": "bbane@mailinator.com",
+      "firstName": "Bill",
+      "lastName": "Bane",
+      "isMetric": false,
+      "timezoneID": "Mountain Standard Time",
+      "legalTermsAcceptedUTC": "2016-09-19T16:38:57.309646Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00463791"
+    },
+    {
+      "iD": 1028,
+      "username": "bob.wold@trimble.com",
+      "firstName": "admin",
+      "lastName": "admin",
+      "isMetric": false,
+      "timezoneID": "UTC",
+      "legalTermsAcceptedUTC": "2016-08-04T15:35:09.8599356Z",
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": null
+    },
+    {
+      "iD": 1220,
+      "username": "bob_wold@trimble.com",
+      "firstName": "Bob",
+      "lastName": "Wold",
+      "isMetric": true,
+      "timezoneID": "UTC",
+      "legalTermsAcceptedUTC": null,
+      "countryCode": null,
+      "region": "Other",
+      "sSOContactID": "CONTACT00296610"
+    }
+  ],
+  "hasMoreData": true
+}

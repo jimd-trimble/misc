@@ -1,0 +1,51 @@
+Inconsistent Results from PurePixel Order-Items Endpoint:
+using https://usagi-pp.trimbleag.team
+Orgid=3051
+latestOnly=1
+
+beginAcqDate=2017-12-01
+endAcqDate=2017-12-31
+/v1/order-items?cfOrgid=3051&beginAcqDate=2017-12-01&endAcqDate=2017-12-31&latestOnly=1
+Returns 5 items:
+	1
+		FieldId=20489
+		ImageAcquisitionDate=2017-12-30 18:37:50.457
+		OrderId=578575
+	2
+		FieldId=20490
+		ImageAcquisitionDate=2017-12-19 18:17:39.458
+		OrderId=578384
+	3
+		FieldId=20495
+		ImageAcquisitionDate=2017-12-24 00:00:00
+		OrderId=577830
+	4
+		FieldId=20516
+		ImageAcquisitionDate=2017-12-20 17:47:28.461
+		OrderId=578461
+	5
+		FieldId=20518
+		ImageAcquisitionDate=2017-12-10 00:00:00
+		OrderId=577822
+
+beginAcqDate=2017-12-10
+endAcqDate=2017-12-31
+/v1/order-items?cfOrgid=3051&beginAcqDate=2017-12-10&endAcqDate=2017-12-31&latestOnly=1 HTTP/1.1
+Returns same 5 items.
+		
+beginAcqDate=2017-12-10
+endAcqDate=2017-12-23
+/v1/order-items?cfOrgid=3051&beginAcqDate=2017-12-10&endAcqDate=2017-12-23&latestOnly=1
+Returns 3 items:
+	1
+		FieldId=20489
+		ImageAcquisitionDate=2017-12-18 18:47:52.456 (Did not exist in 2017-12-01/2017-12-31 result)
+		OrderId=586967
+	2
+		FieldId=20495
+		ImageAcquisitionDate=2017-12-16 13:22:20.455 (Did not exist in 2017-12-01/2017-12-31 result)
+		OrderId=579662
+	3
+		FieldId=20518
+		ImageAcquisitionDate=2017-12-10 00:00:00 (Expected)
+		OrderId=577822

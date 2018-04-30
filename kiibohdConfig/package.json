@@ -1,0 +1,77 @@
+{
+  "name": "kiibohd-configurator",
+  "productName": "Kiibohd Configurator",
+  "version": "0.5.0",
+  "description": "Configuration utility for Input Club keyboards",
+  "keywords": [],
+  "dependencies": {
+    "@cljs-oss/module-deps": "^1.1.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "create-react-class": "^15.6.2",
+    "react-color": "^2.13.8"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "electron": "1.8.2",
+    "electron-builder": "^20.0.4"
+  },
+  "author": "Jeremy Bondeson <jbondeson@gmail.com> (https://input.club)",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiibohd/configurator"
+  },
+  "scripts": {
+    "preinstall": "boot target",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron target/",
+    "watch:dev": "cross-env TIMBRE_LEVEL=:debug boot watch dev-build",
+    "build:dev": "cross-env TIMBRE_LEVEL=:debug boot dev-build",
+    "build:test": "cross-env TIMBRE_LEVEL=:debug boot prod-build",
+    "build:prod": "cross-env TIMBRE_LEVEL=:warn boot prod-build",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
+    "buildDependenciesFromSource": true,
+    "productName": "Kiibohd Configurator",
+    "appId": "club.input.KiibohdConfigurator",
+    "asar": true,
+    "nodeGypRebuild": false,
+    "npmRebuild": true,
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "identity": null,
+      "icon": "icons/icon.icns"
+    },
+    "win": {
+      "icon": "build/icons/icon.ico",
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "tar.gz"
+      ],
+      "executableName": "kiibohd-configurator",
+      "vendor": "Input Club",
+      "category": "Utility"
+    },
+    "directories": {
+      "buildResources": "build",
+      "app": "target",
+      "output": "output"
+    },
+    "publish": {
+      "provider": "github"
+    }
+  }
+}

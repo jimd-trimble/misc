@@ -1,0 +1,118 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXHByb3h5XGNsaWVudHNlcnZpY2VzXExlZ2FjeUZlYXR1cmVzXE9yZ0FkbWluaXN0cmF0aW9uXHYxXFVzZXJEZXRhaWxz?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 15:43:00 GMT
+Content-Length: 2875
+
+{
+  "newUser": false,
+  "userId": 1272,
+  "contactId": "CONTACT00467263",
+  "uuid": "965e381b-0f5e-474f-9809-19972657c5d7",
+  "firstName": "Jim",
+  "lastName": "Dillon",
+  "email": "Jim_Dillon@Trimble.com",
+  "country": "US",
+  "timezoneId": "UTC",
+  "legalTermsAcceptedUtc": "2018-04-02T23:03:40.9168033Z",
+  "isMetric": false,
+  "region": 1,
+  "canStartTrial": false,
+  "trialDaysRemaining": 0,
+  "licenseDaysRemaining": null,
+  "area": 0,
+  "distance": 0,
+  "speed": 0,
+  "weight": 0,
+  "volume": 0,
+  "temperature": 0,
+  "pressure": 0,
+  "depth": 0,
+  "organizations": [
+    {
+      "id": 3107,
+      "name": "Jim Dillon",
+      "isPrimary": true,
+      "brandName": 3,
+      "organizationType": 0,
+      "timezoneId": "UTC",
+      "features": [
+        {
+          "feature": "UserImpersonation",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "ManagementConsole.Marketplace",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.WebApiTesting",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.TrimbleAdminAccess",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "Dashboard.AdminWidgets",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "ManagementConsole.SensorManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.MobileAppManagement",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ManagementConsole.Notifications",
+          "accessLevel": 15,
+          "appName": "ACDCManagementConsole"
+        },
+        {
+          "feature": "ConnectedFarmAccess",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        },
+        {
+          "feature": "DealerPortal.BetaFeature",
+          "accessLevel": 15,
+          "appName": "DealerPortal"
+        },
+        {
+          "feature": "ConnectedFarm.BetaFeature",
+          "accessLevel": 15,
+          "appName": "ConnectedFarm"
+        },
+        {
+          "feature": "Account.OrgAdmin",
+          "accessLevel": 15,
+          "appName": "Account"
+        },
+        {
+          "feature": "OperatorManager",
+          "accessLevel": 15,
+          "appName": "LegacyFeatures"
+        }
+      ],
+      "users": 1
+    }
+  ]
+}

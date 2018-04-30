@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+Set-Cookie: CFBearerAuth-usagi=Issuer%3Dlocalhost%26Audience%3D%2A.connectedfarm.com%26ValidFrom%3D1522771783%26ExpiresOn%3D1522799315%26ImpersonatingUserID%3D1272%26UserID%3D1039%26SSOContactID%3DCONTACT00388791%26Uuid%3Dd5eebad1-d95a-4c20-a836-9943c7dd00df%26Email%3Ddevon_liss%2540trimble.com%26GivenName%3DDevon%26Surname%3DLiss%26OrgType%3DGrower%26OrgID%3D3051%26OrgName%3DPure%2BPixel%2BTest%2BSites%26HMACSHA256%3DtdErqzeZgd8wNLr7RPwNtSvcHKiSkkG85llfsCyywao%253D; expires=Tue, 03-Apr-2018 23:48:35 GMT; path=/; secure
+X-SourceFiles: =?UTF-8?B?QzpcZGV2XFRyaW1ibGVBZ1xjb25uZWN0ZWQtZmFybVxDb25uZWN0ZWRGYXJtXGxvZ2luXHNlbGVjdG9yZw==?=
+X-Powered-By: ASP.NET
+Date: Tue, 03 Apr 2018 16:10:04 GMT
+Content-Length: 89
+
+{"result":"OK","url":"/login/LoginFinalize?returnUrl=https%3A%2F%2Flocalhost%3A44307%2F"}
