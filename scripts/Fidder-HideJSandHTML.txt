@@ -217,16 +217,6 @@ class Handlers
             oSession.responseCode = 304;
             oSession["ui-backcolor"] = "Lavender";
         }
-		
-        if (m_HideJS && (oSession.oResponse.headers.ExistsAndContains("Content-Type", "text/javascript") || oSession.oResponse.headers.ExistsAndContains("Content-Type", "application/x-javascript") || oSession.oResponse.headers.ExistsAndContains("Content-Type", "application/javascript")))
-        {
-            oSession["ui-hide"] = "true";
-        }
-
-        if (m_HideHTML && (oSession.oResponse.headers.ExistsAndContains("Content-Type", "text/html")))
-        {
-            oSession["ui-hide"] = "true";
-        }
     }
 
     // This function is called immediately after a set of request headers has
