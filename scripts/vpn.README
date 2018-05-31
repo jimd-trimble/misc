@@ -1,0 +1,38 @@
+************************READ ME!**************************************************
+
+These instructions are copied from vpn.bat for convenience.
+Last copied on 5/30/2018.
+
+Create a "scripts" folder somewhere without access restrictions. C:\users\<username>\scripts is fine.
+Copy your scripts (even this one) into that directory.
+Check the directory's security so that Administrators & System have full control.
+	- You'll want these scripts available for when you "Run As Administrator". 
+Copy that path!
+Add the path to your system's "Path" variable:
+	- search for "environment variables" in the search box to the right of the Start menu.
+	- click on the "Edit the system environment variables" match.
+	- A "System Properties" window will open. Click the "Environment Variables..." button at the bottom.
+	- This will open another window with user variables on top and system variables on the bottome.
+		- We need the SYSTEM VARIABLES.
+	- Scroll down the system variables panel and double-click on "Path".
+	- Click the "New" button and paste in the scripts directory path.
+	- Click OK, OK, OK.
+Now anything in that scripts directory will be available from the terminal no matter which directory you're in!
+REM
+Install Viscosity if you haven't. It's a good VPN tool and has command line options.
+Add/import your VPN connection profiles. I named mine "primary test" and "primary prod". 
+	- Extra step below if you choose to name yours differently. No big deal. 
+In this script:
+	- Set "viscPath" to where you installed Viscosity. No need to put it in your PATH.
+	- Set the "viscPrms" initializer and "SET viscPrms="primary prod" in ":No2".
+	- Save your changes!
+REM
+Test it out!
+	- open a new admin terminal (search "cmd", right-click, Run as Admin if you haven't created an admin terminal shortcut).
+		- FYI: whenever changes are made to scripts in your system Path, the terminal must be closed/opened again to refresh.
+	- Make sure you're somewhere in C:\ but NOT in \scripts. You *should* be in C:\Windows\system32.
+	-type "vpn t", you should see a notification that Viscosity is trying to connect.
+	- type "vpd d", you should see a notification that Viscosity is disconnecting.
+WHOOOHOOO!
+
+**********************************************************************************
