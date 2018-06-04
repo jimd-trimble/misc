@@ -1,0 +1,13 @@
+#!/bin/sh
+ORIG_MSG_FILE="$1"
+TEMP=`mktemp /tmp/git-XXXXX`
+
+BNAME='git rev-parse --abrev-ref HEAD'
+arrBNAME=(${BNAME//\// })
+arrTITLE=(${arrBNAME[1]//-/ })
+
+BTYPE=arrBNAME[0]
+TICKETNO=arrTITLE[1]
+TITLE=${arrBNAME//-/ }
+(echo " $BTYPE (TABS-$TICKETNO) $TITLE"; cat "$ORIG_MSG_FILE") > "$TEMP"
+cat "$TEMP" > "$ORIG_MSG_FILE"
