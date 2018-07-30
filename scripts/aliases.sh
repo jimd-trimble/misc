@@ -5,6 +5,7 @@
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
 alias dev='cd C:\\dev\\TrimbleAg'
+alias jim='cd C:\\dev\\Jim'
 alias dc='dev && cd datacenter'
 alias dcc='dc && cd DataCenter\\DataServices\\MongoDBScripts && cmd //c ChangeEnvironment.bat'
 alias cf='dev && cd connected-farm'
@@ -18,7 +19,7 @@ alias rundc='rundc.bat'
 alias debcf='debcf.bat'
 alias buildcf='buildcf-n.bat'
 alias builddc='builddc-n.bat'
-alias vpn="vpn.bat"
+alias vpn='vpn.bat'
 alias b='npm run build'
 alias w='npm run watch'
 

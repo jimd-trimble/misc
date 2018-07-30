@@ -105,3 +105,11 @@ If you want to backup your current branch's state before doing this (just in cas
 
 git commit -a -m "Saving my work, just in case"
 git branch my-saved-work
+
+GIT DIFF:
+https://stackoverflow.com/questions/9834689/comparing-two-branches-in-git
+
+git diff branch_1..branch_2
+That will produce the diff between the tips of the two branches. If you'd prefer to find the diff from their common ancestor to test, you can use three dots instead of two:
+
+git diff branch_1...branch_2
