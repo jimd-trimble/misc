@@ -1,3 +1,8 @@
+
+************************ HOLY SHIT!!!! ********************************************
+* https://stackoverflow.com/questions/1670970/how-to-cherry-pick-multiple-commits *
+***********************************************************************************
+
 General branch/rebase/merge/push workflow:
 - Treat your public feature branch like 'develop', don't rebase it so you can keep history clean. Merge rebased local commits into the public feature branch.
 - Create a public feature branch (from develop) in BitBucket or create it locally and push to origin.
