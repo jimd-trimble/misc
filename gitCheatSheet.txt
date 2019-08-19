@@ -118,3 +118,22 @@ git diff branch_1..branch_2
 That will produce the diff between the tips of the two branches. If you'd prefer to find the diff from their common ancestor to test, you can use three dots instead of two:
 
 git diff branch_1...branch_2
+
+HOW TO SAVE/RETRIEVE NAMED STASHES
+This is how you do it:
+
+git stash save "my_stash"
+Where "my_stash" is the stash name.
+
+Some more useful things to know: All the stashes are stored in a stack. Type:
+
+git stash list
+This will list down all your stashes.
+
+To apply a stash and remove it from the stash stack, type:
+
+git stash pop stash@{n}
+To apply a stash and keep it in the stash stack, type:
+
+git stash apply stash@{n}
+Where n is the index of the stashed change.
