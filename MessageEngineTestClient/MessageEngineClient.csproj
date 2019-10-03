@@ -69,47 +69,51 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\AppServices\FieldDataProcessingService\FieldDataProcessingService.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\AppServices\FieldDataProcessingService\FieldDataProcessingService.csproj">
       <Project>{2e3e04b6-a175-487c-804c-8bcf011ca5f5}</Project>
       <Name>FieldDataProcessingService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\AppServices\MessageConsumers\MessageConsumers.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\AppServices\MessageConsumers\MessageConsumers.csproj">
       <Project>{a608f506-674f-468a-8446-ea8c352503ff}</Project>
       <Name>MessageConsumers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\BusinessLogic\BusinessContracts\BusinessContracts.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\BusinessLogic\BusinessContracts\BusinessContracts.csproj">
       <Project>{0f2e2638-c766-43e6-b50e-8e75e05363f6}</Project>
       <Name>BusinessContracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\DataServices\DataContracts\DataContracts.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\DataServices\DataAccess\DataAccess.csproj">
+      <Project>{e7ae1f72-87bb-4ce7-955e-cb2730594104}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\DataServices\DataContracts\DataContracts.csproj">
       <Project>{c6ca11e1-65af-46df-a85b-bf07264a44eb}</Project>
       <Name>DataContracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\DataServices\ExternalAccess\ExternalAccess.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\DataServices\ExternalAccess\ExternalAccess.csproj">
       <Project>{992e0130-347a-430f-a12b-85b538a1c217}</Project>
       <Name>ExternalAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\DataServices\ExternalContracts\ExternalContracts.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\DataServices\ExternalContracts\ExternalContracts.csproj">
       <Project>{2faa6c12-e375-4858-8d6c-4425272f45cf}</Project>
       <Name>ExternalContracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Plumbing\BusMessages\BusMessages.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\Plumbing\BusMessages\BusMessages.csproj">
       <Project>{4476ea84-45ee-4a07-a6ca-37d2c578aeb2}</Project>
       <Name>BusMessages</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Plumbing\DependencyInjection\DependencyInjection.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\Plumbing\DependencyInjection\DependencyInjection.csproj">
       <Project>{0fa757d8-3163-4eb2-bc5c-b8de6e4ef711}</Project>
       <Name>DependencyInjection</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Plumbing\ServiceBus\ServiceBus.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\Plumbing\ServiceBus\ServiceBus.csproj">
       <Project>{308bb869-db09-4dc4-acb7-368f4084abe2}</Project>
       <Name>ServiceBus</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Shared\GlobalTypes\GlobalTypes.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\Shared\GlobalTypes\GlobalTypes.csproj">
       <Project>{908bfdb3-cab2-4902-94bf-7be6bb8e0ec0}</Project>
       <Name>GlobalTypes</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Shared\Helpers\Helpers.csproj">
+    <ProjectReference Include="..\..\..\..\dev\TrimbleAg\datacenter\DataCenter\Shared\Helpers\Helpers.csproj">
       <Project>{9977003e-0bfd-45ac-a563-4053a2cfd057}</Project>
       <Name>Helpers</Name>
     </ProjectReference>
