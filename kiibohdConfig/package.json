@@ -14,7 +14,7 @@
   "devDependencies": {
     "cross-env": "^5.1.3",
     "electron": "1.8.2",
-    "electron-builder": "^20.0.4"
+    "electron-builder": "^20.44.4"
   },
   "author": "Jeremy Bondeson <jbondeson@gmail.com> (https://input.club)",
   "license": "GPL-3.0",
